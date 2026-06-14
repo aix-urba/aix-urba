@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte rendu de chantier - Cours d'appel 10/06/26</title>
+    <style>
+        /* Style global */
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            margin: 40px 50px;
+            color: #1a1a1a;
+            line-height: 1.5;
+            background-color: #ffffff;
+        }
+
+        /* Style pour l'impression / export PDF */
+        @media print {
+            body {
+                margin: 25px 30px;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+
+        h1 {
+            font-size: 22px;
+            color: #003366;
+            border-bottom: 3px solid #003366;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .sous-titre {
+            font-size: 14px;
+            color: #555;
+            margin-top: -10px;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #003366;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 5px solid #003366;
+            padding-left: 12px;
+            background-color: #f0f5fa;
+            line-height: 1.4;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #2a5a8a;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 4px;
+        }
+
+        .participants-box {
+            background-color: #f7f9fc;
+            border: 1px solid #d0d8e5;
+            padding: 15px 20px;
+            margin-bottom: 25px;
+            border-radius: 4px;
+        }
+
+        .participants-box p {
+            margin: 3px 0;
+            font-size: 14px;
+        }
+
+        .participants-box strong {
+            color: #003366;
+        }
+
+        ul, ol {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .date-lieu {
+            text-align: right;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .encart-rouge {
+            background-color: #fff5f5;
+            border-left: 5px solid #cc0000;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+
+        .encart-orange {
+            background-color: #fff8f0;
+            border-left: 5px solid #e68a00;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+
+        .encart-vert {
+            background-color: #f0faf0;
+            border-left: 5px solid #2d862d;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+
+        .info-importante {
+            font-weight: bold;
+            color: #b30000;
+        }
+
+        .info-moyenne {
+            font-weight: bold;
+            color: #cc6600;
+        }
+
+        .gras {
+            font-weight: 600;
+        }
+
+        .separateur {
+            border: none;
+            border-top: 2px dashed #bbb;
+            margin: 25px 0;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #3b6ca0;
+            margin: 20px 0;
+        }
+
+        .footer-note {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #888;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        .badge-titre {
+            display: inline-block;
+            background-color: #003366;
+            color: white;
+            padding: 3px 12px;
+            border-radius: 3px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .souligne {
+            text-decoration: underline;
+        }
+
+        .col-2 {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                margin: 15px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- ==================== DOCUMENT 1 : BROUILLON ORIGINAL ==================== -->
+
+<h1>COMPTE RENDU DE CHANTIER</h1>
+<p class="sous-titre">Cours d'appel du 10/06/26 – Version brouillon (intégralité des informations)</p>
+
+<div class="participants-box">
+    <p><strong>Participants :</strong></p>
+    <p>Mme COSTES THOMAS – Cheffe de projets immobiliers – Département de l'immobilier</p>
+    <p>Mr BIANCHINI – Directeur Gestion Voirie</p>
+    <p>Mme BAILLEAU-RANCHAIN – Chef de service par intérim Gestion Voirie</p>
+    <p>Mme CAMELLI – Gestionnaire Centre Ville</p>
+    <p>Mme GROS – Directrice (marchés)</p>
+    <p>Mr SEGOND – R2M économiste</p>
+    <p style="margin-top:8px;"><em>Tour de table pour présentation</em></p>
+</div>
+
+<h2>1. Présentation du projet</h2>
+
+<ul>
+    <li>Réalisation d'un passage reliant la salle de criminel et le long du bâtiment pour accéder aux bennes</li>
+    <li>Puis chemin intérieur courant juillet</li>
+    <li>Le périmètre d'occupation est de l'entrée Montclare, derrière le palais</li>
+    <li>Couloir de circulation le long du bâtiment</li>
+    <li>Ce circuit est temporaire mais après les procès le circuit utilisé sera par l'arrière : à prévoir 5 places de stationnements (2 bennes + toilettes)</li>
+    <li>Mme COSTE précise qu'il reste un passage piéton et que deux bennes sont prévues sous le bureau du président</li>
+    <li>L'autorisation de voirie prévue jusqu'au 30/09/26</li>
+    <li>Jusqu'à octobre : salle criminelle</li>
+    <li>Les camions doivent être inférieurs à 3T5 pour passer dans la rue Pierre Marie Curie en contre-sens (demander chemin à Caroline, rue de l'Opéra, rue Tiers)</li>
+    <li>En sortie : chemin en vert (dérogation pour 5T5, attention au maximum 19T)</li>
+    <li>Envoi des éléments de besoins de livraisons de fin juillet : doivent être transmis pour prévoir les dérogations (bornes, circulation) – <span class="info-importante">10 JOURS DE TRAITEMENT</span></li>
+    <li>Envoi du calendrier prévisionnel</li>
+    <li>Attention aux jours de marchés, à partir de 14h00 (mardi, jeudi, samedi) comme prévu sur l'autorisation</li>
+    <li>Quatre mois de plus après octobre (occupation côté gauche et arrière)</li>
+    <li>Deuxième chantier toiture prévu</li>
+    <li>Rue Verdun : le chantier projet Apige en suspens</li>
+    <li><span class="gras">7 LOTS prévus</span> – tous corps d'état (demande de 7 badges : tarif de 8,20€ par semaine par m²)</li>
+    <li>Décomposition : 2 lots en juin et 7 lots après juin – transmission du déroulement des lots par [à préciser]</li>
+    <li>Bien donner l'info quand c'est la fin de chantier, pour la facturation</li>
+    <li>Les grosses livraisons sont prévues par l'entrée du palais</li>
+</ul>
+
+<h3>Précautions / Logistique</h3>
+
+<ul>
+    <li>Prévoir un camion de gros tonnage doit stationner dans la cour, et un plus petit camion doit descendre jusqu'au palais de Justice</li>
+    <li><span class="info-importante">DEMANDE DE TOUTES LES IMMATRICULATIONS</span></li>
+    <li><span class="info-importante">COORDONNÉES DES PRESTATAIRES</span></li>
+    <li><span class="info-moyenne">RAPPEL :</span> les jours de marchés : aucune livraison</li>
+    <li><span class="info-importante">ATTENTION : AUCUN STATIONNEMENT PERMANENT N'EST TOLÉRÉ</span></li>
+    <li>Toutes les entrées dans le périmètre doivent être soumises à demande par les entreprises</li>
+    <li>1 badge prévu</li>
+    <li>Horaires : 7h00 – 17h00 lundi au vendredi prévus</li>
+    <li>Si des contraintes, il faudra un débordement le samedi</li>
+    <li><span class="info-importante">ATTENTION : REFAIRE UNE DEMANDE DE DÉROGATION POUR TRAVAILLER LE SAMEDI</span></li>
+    <li><span class="info-importante">ATTENTION : SI APRÈS 19H00, ÉLARGISSEMENT DE LA PLAGE : DEMANDE AUPRÈS DE LA POLICE ADMINISTRATIVE</span></li>
+    <li>Au niveau des manifestations : pour le moment aucune manifestation n'est prévue, mais attention à la Coupe du Monde</li>
+    <li><span class="info-importante">TOUT CHANGEMENT DOIT ÊTRE FAIT PAR FORMULAIRES</span></li>
+    <li>L'entreprise de travaux (KBIS) doit s'acquitter de la redevance de droit de voirie (stationnement, accès au centre-ville et badge)</li>
+</ul>
+
+<h2>2. Points de vigilance</h2>
+<ul>
+    <li>Ne pas déroger au périmètre prévu</li>
+    <li>Plaintes des commerçants concernant le passage</li>
+</ul>
+
+<h2>3. Préconisations</h2>
+<ul>
+    <li>Installation sur chantier : manque de signalétique</li>
+</ul>
+
+<!-- ==================== PAGE BREAK / SÉPARATEUR ==================== -->
+<hr class="separateur">
+<div class="page-break"></div>
+
+<!-- ==================== DOCUMENT 2 : COMPTE RENDU FINAL ==================== -->
+
+<h1>COMPTE RENDU DE CHANTIER</h1>
+<p class="sous-titre">Cours d'appel – 10/06/26 – Version définitive</p>
+
+<div class="participants-box">
+    <p><strong>Participants :</strong></p>
+    <p>Mme COSTES THOMAS – Cheffe de projets immobiliers – Département de l'immobilier</p>
+    <p>M. BIANCHINI – Directeur Gestion Voirie</p>
+    <p>Mme BAILLEAU-RANCHAIN – Chef de service par intérim Gestion Voirie</p>
+    <p>Mme CAMELLI – Gestionnaire Centre Ville</p>
+    <p>Mme GROS – Directrice (Marchés)</p>
+    <p>M. SEGOND – R2M économiste</p>
+    <p style="margin-top:8px;"><em>Ordre du jour : Tour de table et présentation du projet</em></p>
+</div>
+
+<hr>
+
+<h2>1. PRÉSENTATION DU PROJET</h2>
+
+<h3>Description des travaux</h3>
+<ul>
+    <li>Réalisation d'un passage reliant la salle de criminel et le long du bâtiment pour accéder aux bennes.</li>
+    <li>Chemin intérieur courant juillet.</li>
+    <li>Périmètre d'occupation : entrée Montclare, derrière le palais, couloir de circulation le long du bâtiment.</li>
+    <li>Circuit temporaire. Après les procès, le circuit utilisé passera par l'arrière. Prévoir 5 places de stationnement (2 bennes + toilettes).</li>
+    <li>Mme COSTE précise qu'il reste un passage piéton et que deux bennes sont prévues sous le bureau du président.</li>
+    <li>Autorisation de voirie prévue jusqu'au 30/09/26. Salle criminelle jusqu'à octobre.</li>
+</ul>
+
+<h3>Circulation et accès</h3>
+<ul>
+    <li>Les camions doivent être inférieurs à 3T5 pour passer dans la rue Pierre Marie Curie en contre-sens (demander chemin à Caroline : rue de l'Opéra, rue Tiers).</li>
+    <li>En sortie : chemin en vert (dérogation pour 5T5, attention maximum 19T).</li>
+    <li>Envoi des éléments de besoins de livraisons de fin juillet à transmettre pour prévoir les dérogations (bornes, circulation) – <span class="info-importante">10 jours de traitement</span>.</li>
+    <li>Envoi du calendrier prévisionnel.</li>
+    <li><span class="info-moyenne">Attention aux jours de marchés</span> (mardi, jeudi, samedi) : aucune livraison à partir de 14h00, comme prévu sur l'autorisation.</li>
+    <li>Quatre mois de plus après octobre (occupation côté gauche et arrière).</li>
+    <li>Deuxième chantier toiture prévu.</li>
+    <li>Rue Verdun : chantier projet Apige en suspens.</li>
+</ul>
+
+<h3>Organisation et lots</h3>
+<ul>
+    <li>7 lots prévus, tous corps d'état (demande de 7 badges – tarif : 8,20 € par semaine par m²).</li>
+    <li>Décomposition : 2 lots en juin, 7 lots après juin. Transmission du déroulement des lots à préciser.</li>
+    <li>Bien donner l'information quand c'est la fin de chantier, pour la facturation.</li>
+    <li>Les grosses livraisons sont prévues par l'entrée du palais.</li>
+</ul>
+
+<h3>Précautions logistiques</h3>
+
+<div class="encart-rouge">
+    <strong>Points d'attention obligatoires :</strong>
+</div>
+
+<ul>
+    <li>Prévoir un camion de gros tonnage stationnant dans la cour, et un plus petit camion descendant jusqu'au palais de Justice.</li>
+    <li><span class="info-importante">Demande de toutes les immatriculations.</span></li>
+    <li><span class="info-importante">Coordonnées des prestataires.</span></li>
+    <li><span class="info-moyenne">Rappel :</span> Jours de marchés : aucune livraison.</li>
+    <li><span class="info-importante">Attention : Aucun stationnement permanent n'est toléré.</span></li>
+    <li>Toutes les entrées dans le périmètre doivent être soumises à demande par les entreprises.</li>
+    <li>1 badge prévu.</li>
+    <li>Horaires prévus : 7h00 – 17h00, du lundi au vendredi.</li>
+    <li>Si contraintes : débordement possible le samedi.</li>
+    <li><span class="info-importante">Attention : Refaire une demande de dérogation pour travailler le samedi.</span></li>
+    <li><span class="info-importante">Attention : Si après 19h00, élargissement de la plage : demande auprès de la Police Administrative.</span></li>
+</ul>
+
+<h3>Manifestations</h3>
+<ul>
+    <li>Pour le moment, aucune manifestation n'est prévue, mais attention à la Coupe du Monde.</li>
+    <li><span class="info-importante">Tout changement doit être formulé via les formulaires dédiés.</span></li>
+</ul>
+
+<h3>Redevances</h3>
+<ul>
+    <li>L'entreprise de travaux (KBIS) doit s'acquitter de la redevance de droit de voirie (stationnement, accès au centre-ville et badge).</li>
+</ul>
+
+<hr>
+
+<h2>2. POINTS DE VIGILANCE</h2>
+<ul>
+    <li>Ne pas déroger au périmètre prévu.</li>
+    <li>Plaintes des commerçants concernant le passage.</li>
+</ul>
+
+<h2>3. PRÉCONISATIONS</h2>
+<ul>
+    <li>Installation sur chantier : manque de signalétique.</li>
+</ul>
+
+<div class="footer-note">
+    Document généré le 10/06/26 – 2 pages (brouillon original + compte rendu finalisé)
+</div>
+
+</body>
+</html>
