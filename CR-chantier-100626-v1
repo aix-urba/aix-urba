@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Compte rendu de chantier - Cour d'appel</title>
+<style>
+  body {
+    font-family: 'Calibri', 'Arial', sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #2c3e50;
+    line-height: 1.6;
+    background-color: #ffffff;
+  }
+  h1 {
+    color: #1a3d6d;
+    border-bottom: 3px solid #1a3d6d;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+  h2 {
+    color: #1a3d6d;
+    border-left: 5px solid #1a3d6d;
+    padding-left: 12px;
+    margin-top: 30px;
+  }
+  h3 {
+    color: #2c5a8a;
+    margin-top: 20px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  th {
+    background-color: #1a3d6d;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:nth-child(even) {
+    background-color: #f4f7fb;
+  }
+  ul {
+    margin: 10px 0;
+    padding-left: 25px;
+  }
+  li {
+    margin-bottom: 6px;
+  }
+  hr {
+    border: none;
+    border-top: 1px dashed #aaa;
+    margin: 30px 0;
+  }
+  .date {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  .alert {
+    background-color: #fff8e1;
+    border-left: 4px solid #f0a000;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 3px;
+  }
+  .footer {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin-top: 40px;
+  }
+  @media print {
+    body { margin: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Compte rendu de chantier — Cour d'appel</h1>
+<p class="date"><strong>Date :</strong> 10/06/2026</p>
+
+<h2>Participants</h2>
+<table>
+  <thead>
+    <tr><th>Nom</th><th>Fonction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mme COSTES THOMAS</td><td>Cheffe de projets immobiliers – Département de l'immobilier</td></tr>
+    <tr><td>M. BIANCHINI</td><td>Directeur Gestion Voirie</td></tr>
+    <tr><td>Mme BAILLEAU-RANCHAIN</td><td>Chef de service par intérim – Gestion Voirie</td></tr>
+    <tr><td>Mme CAMELLI</td><td>Gestionnaire Centre-Ville</td></tr>
+    <tr><td>Mme GROS</td><td>Directrice (marchés)</td></tr>
+    <tr><td>M. SEGOND</td><td>Économiste – R2M</td></tr>
+  </tbody>
+</table>
+<p><em>La séance débute par un tour de table de présentation.</em></p>
+
+<hr>
+
+<h2>1. Présentation du projet</h2>
+
+<h3>1.1 Aménagement des accès</h3>
+<ul>
+  <li>Réalisation d'un passage reliant la salle du criminel et longeant le bâtiment afin d'accéder aux bennes.</li>
+  <li>Création d'un chemin intérieur prévu courant juillet.</li>
+  <li><strong>Périmètre d'occupation :</strong> depuis l'entrée Montclare, derrière le palais, avec un couloir de circulation le long du bâtiment.</li>
+  <li>Ce circuit est <strong>temporaire</strong>. Après les procès, le circuit définitif s'effectuera par l'arrière, avec la nécessité de prévoir <strong>5 places de stationnement</strong> (2 bennes + toilettes).</li>
+  <li>Mme COSTES précise qu'un <strong>passage piéton</strong> sera maintenu et que <strong>deux bennes</strong> sont prévues sous le bureau du président.</li>
+</ul>
+
+<h3>1.2 Autorisations et calendrier</h3>
+<ul>
+  <li><strong>Autorisation de voirie</strong> valable jusqu'au <strong>30/09/2026</strong>.</li>
+  <li>Occupation de la salle criminelle jusqu'en <strong>octobre</strong>.</li>
+  <li>Prolongation prévue de <strong>4 mois supplémentaires</strong> après octobre (occupation côté gauche et arrière).</li>
+  <li>Un <strong>deuxième chantier</strong> est programmé pour la toiture.</li>
+  <li>Le projet APIGE (rue de Verdun) est actuellement <strong>en suspens</strong>.</li>
+</ul>
+
+<h3>1.3 Conditions de circulation</h3>
+<ul>
+  <li>Tonnage limité à <strong>3,5 T</strong> pour les camions empruntant la rue Pierre-Marie Curie à contresens.
+    <ul><li><em>Itinéraire à confirmer auprès de Caroline : rue de l'Opéra, rue Tiers.</em></li></ul>
+  </li>
+  <li>En sortie (chemin en vert) : <strong>dérogation pour 5,5 T</strong>, avec un <strong>maximum absolu de 19 T</strong>.</li>
+  <li>Les <strong>grosses livraisons</strong> s'effectueront par l'entrée du palais.</li>
+</ul>
+
+<h3>1.4 Livraisons et dérogations</h3>
+<ul>
+  <li>Les <strong>besoins de livraisons</strong> doivent être transmis <strong>avant fin juillet</strong> pour permettre l'instruction des dérogations (bornes, circulation).</li>
+  <li><strong>Délai de traitement : 10 jours.</strong></li>
+  <li>Transmission du <strong>calendrier prévisionnel</strong> à prévoir.</li>
+  <li><strong>Jours de marché</strong> (mardi, jeudi, samedi) : aucune livraison autorisée, conformément à l'autorisation. Reprise possible à partir de <strong>14h00</strong>.</li>
+</ul>
+
+<h3>1.5 Organisation des lots</h3>
+<ul>
+  <li><strong>7 lots prévus</strong>, tous corps d'état.</li>
+  <li>Décomposition :
+    <ul>
+      <li><strong>2 lots</strong> en juin</li>
+      <li><strong>7 lots</strong> après juin</li>
+    </ul>
+  </li>
+  <li><strong>7 badges</strong> à prévoir – tarif : <strong>8,20 € / semaine / m²</strong>.</li>
+  <li>Transmission du déroulement des lots à organiser.</li>
+  <li><strong>Important :</strong> communiquer la fin de chantier pour permettre la facturation.</li>
+</ul>
+
+<hr>
+
+<h2>2. Préconisations opérationnelles</h2>
+
+<h3>2.1 Logistique des livraisons</h3>
+<ul>
+  <li>Les camions de <strong>gros tonnage</strong> doivent stationner au niveau de la cour ; un <strong>camion plus petit</strong> assurera la descente jusqu'au palais de Justice.</li>
+  <li>Fournir :
+    <ul>
+      <li><strong>Toutes les immatriculations</strong> des véhicules</li>
+      <li><strong>Coordonnées des prestataires</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3>2.2 Règles de stationnement et d'accès</h3>
+<div class="alert">
+  <ul>
+    <li><strong>Aucun stationnement permanent toléré.</strong></li>
+    <li>Toute entrée dans le périmètre doit faire l'objet d'une <strong>demande préalable</strong> par les entreprises.</li>
+    <li><strong>1 badge</strong> initialement prévu.</li>
+    <li><strong>Horaires autorisés :</strong> 7h00 – 17h00, du lundi au vendredi.</li>
+    <li>En cas de débordement le <strong>samedi</strong> : nouvelle <strong>demande de dérogation</strong> obligatoire.</li>
+    <li>En cas de travail <strong>après 19h00</strong> : élargissement de la plage horaire à demander auprès de la <strong>Police administrative</strong>.</li>
+  </ul>
+</div>
+
+<h3>2.3 Manifestations</h3>
+<ul>
+  <li>Aucune manifestation actuellement prévue.</li>
+  <li><strong>Vigilance particulière</strong> durant la période de la <strong>Coupe du Monde</strong>.</li>
+  <li>Tout changement doit être formalisé via les <strong>formulaires officiels</strong>.</li>
+</ul>
+
+<h3>2.4 Redevances</h3>
+<ul>
+  <li>L'entreprise de travaux (<strong>Kbis requis</strong>) doit s'acquitter de la <strong>redevance de droit de voirie</strong> (stationnement, accès au centre-ville et badge).</li>
+</ul>
+
+<hr>
+
+<h2>3. Points de vigilance</h2>
+<ul>
+  <li><strong>Respect strict du périmètre</strong> d'intervention : ne pas déroger à la zone définie.</li>
+  <li><strong>Plaintes des commerçants</strong> concernant le passage à prendre en compte.</li>
+</ul>
+
+<hr>
+
+<h2>4. Recommandations complémentaires</h2>
+<ul>
+  <li><strong>Signalétique de chantier</strong> à renforcer : l'installation actuelle est jugée insuffisante.</li>
+</ul>
+
+<p class="footer">— Fin du compte rendu —</p>
+
+</body>
+</html>
