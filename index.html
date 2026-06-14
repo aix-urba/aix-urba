@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aix-Urba — Comptes rendus de chantier</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Calibri', 'Segoe UI', 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a3d6d 0%, #2c5a8a 100%);
+    min-height: 100vh;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container {
+    background-color: #ffffff;
+    max-width: 850px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  header {
+    background: linear-gradient(135deg, #1a3d6d 0%, #2c5a8a 100%);
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  header p {
+    font-size: 1.1em;
+    opacity: 0.9;
+  }
+  main {
+    padding: 40px;
+  }
+  h2 {
+    color: #1a3d6d;
+    border-left: 5px solid #1a3d6d;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+  }
+  .cr-list {
+    list-style: none;
+    display: grid;
+    gap: 20px;
+  }
+  .cr-card {
+    background-color: #f4f7fb;
+    border: 1px solid #dde4ec;
+    border-radius: 8px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    border-left: 5px solid #1a3d6d;
+  }
+  .cr-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(26, 61, 109, 0.15);
+    background-color: #ffffff;
+  }
+  .cr-card a {
+    text-decoration: none;
+    color: #1a3d6d;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cr-card a:hover {
+    color: #2c5a8a;
+  }
+  .cr-card .description {
+    color: #555;
+    margin-top: 8px;
+    font-size: 0.95em;
+  }
+  .arrow {
+    font-size: 1.5em;
+    transition: transform 0.3s ease;
+  }
+  .cr-card:hover .arrow {
+    transform: translateX(5px);
+  }
+  .badge {
+    display: inline-block;
+    background-color: #1a3d6d;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  footer {
+    background-color: #f4f7fb;
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9em;
+    border-top: 1px solid #dde4ec;
+  }
+  footer a {
+    color: #1a3d6d;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>🏛️ Aix-Urba</h1>
+    <p>Gestion des chantiers — Comptes rendus</p>
+  </header>
+
+  <main>
+    <h2>Chantier Cour d'appel</h2>
+    <ul class="cr-list">
+
+      <li class="cr-card">
+        <a href="CR-chantier-100626-v1.html">
+          <span>📄 Compte rendu du 10/06/2026 — Version 1</span>
+          <span class="arrow">→</span>
+        </a>
+        <p class="description">
+          Version révisée et mise à jour du compte rendu de chantier.
+        </p>
+      </li>
+
+      <li class="cr-card">
+        <a href="CR-chantier-100626-v2.html">
+          <span>📄 Compte rendu du 10/06/2026 — Version 2 <span class="badge">À jour</span></span>
+          <span class="arrow">→</span>
+        </a>
+        <p class="description">
+          Version originale remis en page du compte rendu de chantier.
+        </p>
+      </li>
+
+      
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2026 — Projet <a href="https://aix-urba.github.io/" target="_blank">aix-urba</a> | Tous droits réservés</p>
+  </footer>
+
+</div>
+
+</body>
+  </html>
